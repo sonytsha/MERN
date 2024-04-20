@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: 'Montserrat', 'Jacquard 24', sans-serif;
+    margin : 0;
+    box-sizing: border-box;
+}
+
+body.html{
+    height : 100px;
+    font-size : 10px;
+}
+
+.test1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: static;
+}
+
+
+.test2{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 20px;
+}
+
+.test2{
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+}
+
+.heading_container{
+    font-size: 12px;
+}
+.banner{
+    background-image: url(./Screenshot\ 2024-04-20\ 125524.png);
+    height: 800px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color:beige;
+    background-position: center center;
+}
+.heading {
+    color: blue;
+    font-size: 2rem;
+    font-weight: 500;
+    text-shadow: 10px 5px 0 yellowgreen;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    margin : 1px 4px 5px 10px;
+    border: 5px dashed red;
+    padding : 5px;
+}
+
+.about {
+    color: palevioletred;
+    font-weight: 400;
+    font-size: 2em;
+    padding : 5px 10px 4px 5px;
+}
+
+.event_heading {
+    font-size: 42px;
+    font-weight: 700;
+}
+.blue_small_heading {
+    color:blue;
+    font-size: 18px;
+}
+.detail_heading{
+    font-size: 32px;
+    font-weight: 600px;
+}
+
+@media screenand(max-width : 800) {
+    .heading {
+        border : 5px solid yellow;
+    }
+}
+
+@media screen and (min-width : 300px){
+    .heading {
+        border : 5px solid green;
+        font-size: 4em;
+    } 
+}
